@@ -3,8 +3,6 @@ tweepy
 wordcloud
 pandas
 numpy
-re
 requests
 matplotlib.pyplot
 PIL
-seaborn

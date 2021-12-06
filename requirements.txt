@@ -4,5 +4,5 @@ wordcloud
 pandas
 numpy
 requests
-matplotlib.pyplot
+matplotlib
 PIL

@@ -1,1 +1,1 @@
-streamlit_tags==1.0.6
+streamlit_tags

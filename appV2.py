@@ -113,7 +113,7 @@ def app():
     
     img = gen_wordcloud()
     
-    st.image(img, width = 1200)
+    st.image(img, width = 100)
 
     
     if st.sidebar.checkbox("Montrer les tweets", False):

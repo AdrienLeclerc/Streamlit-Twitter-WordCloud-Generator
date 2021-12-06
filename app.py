@@ -4,11 +4,9 @@ import tweepy
 from wordcloud import WordCloud, STOPWORDS
 import pandas as pd
 import numpy as np
-import re
 import requests
 import matplotlib.pyplot as plt
 from PIL import Image
-import seaborn as sns
 
 consumer_key = 'Y0WzAmtM2p7wXZgATbWtKeHDX'
 consumer_secret = 'S66YGP02mv389XJJtErXKGnTfbgT5n5hT563iuUS01gO9YV6sc'

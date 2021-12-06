@@ -22,7 +22,7 @@ api = tweepy.API(auth,wait_on_rate_limit=True)
 
 def app():
     
-    st.image("https://i.imgur.com/zsNsR6b.png",width = 700)
+    st.image("https://i.imgur.com/zsNsR6b.png")
     
     st.sidebar.image("https://i.imgur.com/P356Awy.png",width = 300)
     
@@ -113,12 +113,12 @@ def app():
     
     img = gen_wordcloud()
     
-    st.image(img, width = 800)
+    st.image(img)
 
     
     if st.sidebar.checkbox("Montrer les tweets", False):
         st.subheader("Voici les derniers tweets de @" + raw_text)
-        st.dataframe(df, width = 600)
+        st.dataframe(df)
     
     st.sidebar.title("Téléchargement")
     

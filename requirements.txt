@@ -11,3 +11,4 @@ nltk
 textblob
 emoji
 regex
+plotly

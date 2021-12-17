@@ -18,6 +18,8 @@ import re
 import matplotlib.pyplot as plt
 from PIL import Image
 
+nltk.download('vader_lexicon')
+
 consumer_key = 'Y0WzAmtM2p7wXZgATbWtKeHDX'
 consumer_secret = 'S66YGP02mv389XJJtErXKGnTfbgT5n5hT563iuUS01gO9YV6sc'
 access_token = '1450083013384097794-mFm1jJMmHFP9OzwMbjIOEExyQiz7oQ'

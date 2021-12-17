@@ -6,3 +6,8 @@ numpy
 requests
 matplotlib
 Pillow
+afinn
+nltk
+textblob
+emoji
+re

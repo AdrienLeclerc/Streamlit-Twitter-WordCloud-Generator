@@ -10,4 +10,4 @@ afinn
 nltk
 textblob
 emoji
-re
+regex

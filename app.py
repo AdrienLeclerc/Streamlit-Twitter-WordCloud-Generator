@@ -89,7 +89,7 @@ def app():
     
         mask_choice = st.sidebar.selectbox('Choix du mask',('Bird', 'Hashtag','t','Smiley','Cercle'))
     
-        if mask_choice == 'Bird' : mask = np.array(Image.open(requests.get("https://i.imgur.com/dCzb5hQ.png", stream = True).raw))
+        if mask_choice == 'Bird' : mask = np.array(Image.open("bird.png"))
         if mask_choice == 'Hashtag' : mask = np.array(Image.open(requests.get("https://i.imgur.com/D2Mqsye.png", stream = True).raw))
         if mask_choice == 't' : mask = np.array(Image.open(requests.get("https://i.imgur.com/DZWpWzB.png", stream = True).raw))
         if mask_choice == 'Smiley' : mask = np.array(Image.open(requests.get("https://i.imgur.com/goSy6mn.png", stream = True).raw))

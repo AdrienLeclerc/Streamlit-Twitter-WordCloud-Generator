@@ -7,9 +7,9 @@ import numpy as np
 import requests
 import time
 import plotly.express as px
-#import flair
 from afinn import Afinn
 import nltk
+nltk.download('vader_lexicon')
 from nltk.sentiment import SentimentIntensityAnalyzer
 from textblob import TextBlob
 import operator

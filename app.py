@@ -33,7 +33,7 @@ st.set_page_config(page_title = "Twitter WC & Sentiment Analysis",
                    page_icon = ":bird:",
                    layout = 'wide')
 
-@st.cache
+
 def cleaner(tweet):
     tweet = re.sub("@[A-Za-z0-9]+","",tweet) #Remove @ sign
     tweet = re.sub("RT :"," ", tweet)
